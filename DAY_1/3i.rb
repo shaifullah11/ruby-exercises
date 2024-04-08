@@ -4,7 +4,7 @@ def count_substrings_divisible_by_6(s)
     (0...s.length).each do |i|
       num = 0
       (i...s.length).each do |j|
-        num = num * 10 + s[j].to_i
+        num = num * 10 + s[j].to_i   #4086
         count += 1 if num % 6 == 0
       end
     end

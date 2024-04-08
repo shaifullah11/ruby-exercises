@@ -11,4 +11,6 @@ puts "Enter the string:"
 str = gets.chomp
   
 subString(str)
+
+# hello
   
