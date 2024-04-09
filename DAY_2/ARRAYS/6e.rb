@@ -21,10 +21,10 @@ def quick_sort(arr, low, high)
   end
 end
 
-begin
-arr = [78, 75, 1, 7, 8, d75, 67, 7, 54, 897, 5, 67, 8, 97, 654, 4, 87, 8989, 89, 98, 983]
+# begin
+arr = [78, 75, 1, 7, 8, 75, 67, 7, 54, 897, 5, 67, 8, 97, 654, 4, 87, 8989, 89, 98, 983]
 quick_sort(arr, 0, arr.length - 1)
 puts arr.inspect
-rescue => e
-  puts e.error
-end
+# rescue => e
+#   puts e.error
+# end
